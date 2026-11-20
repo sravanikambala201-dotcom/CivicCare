@@ -1,0 +1,10 @@
+
+POST http://localhost:8080/api/complaints
+Content-Type: application/json
+
+{
+  "title": "Streetlight Not Working",
+  "description": "The streetlight near our street has not been working for three days.",
+  "category": "Electricity",
+  "location": "Vijayawada"
+}
